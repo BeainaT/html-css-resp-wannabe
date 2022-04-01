@@ -73,17 +73,26 @@ img {
 }
 
 /*RESPONSIVE*/
+@media screen and (max-width: 1024px) {
+  .row {
+    width: 100%;
+    margin: auto;
+  }
+  #lezioni .row img {
+    width: 50%;
+  }
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    width: 50%;
+    margin: auto;
+}
 @media screen and (max-width: 420px) {
   .row {
     width: 100%;
     margin: auto;
   }
   #lezioni .row>.right, #lezioni .row>.left {
-    float: none;
-    margin: auto;
-  }
-  #lezioni .row img {
     width: 100%;
+    margin: auto;
   }
   #steps .row>.left, #steps .row>.central, #steps .row>.right {
     width: 100%;

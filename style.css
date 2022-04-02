@@ -81,9 +81,14 @@ img {
   #lezioni .row img {
     width: 50%;
   }
-  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+  #steps .row>.left, #steps .row>.central {
     width: 50%;
     margin: auto;
+  }
+  #steps .row>.right {
+    width: 100%;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 420px) {
   .row {
